@@ -1,38 +1,62 @@
-#  Carteira - Money Bag
+# Money Bag - React Native
 
-### Pré-requisitos
+Estudo de caso:
+um app de carteira digital feita com React Native
 
-Antes de começar, certifique-se de que você tenha as seguintes ferramentas instaladas em seu sistema:
+## 🚀 Começando
 
-- [Yarn](https://classic.yarnpkg.com/en/docs/install/) (você pode instalá-lo globalmente executando `npm install -g yarn`)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/) (você pode instalá-lo globalmente executando `yarn global add expo-cli`)
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de teste.
 
-### Passos
+### 📋 Pré-requisitos
 
-Siga os passos abaixo para rodar o projeto React Native com Expo localmente:
-
-1. **Clone o Repositório**: Clone o repositório do projeto para o seu computador usando o comando Git:
+Clone o repositório
 
 ```
 git clone git@github.com:jefersonPMatos/money-bag-app.git
 ```
-Navegue até o Diretório do Projeto: Use o terminal para acessar o diretório do seu projeto:
+
+### 🔧 Instalação
+Instale EXPO CLI:
 
 ```
-cd money-bag
+yarn global add expo-cli
 ```
 
-Instale as Dependências
+Instale as dependências:
 
 ```
-yarn install
+npm install ou yarn add
 ```
+
 Inicie o Servidor Expo
 
 ```
-yarn start
+npm run start ou yarn start
 ```
+
+Rode o projeto:
+
 Abra o Projeto no Expo Go: Após executar o comando acima, um QR code irá aparecer no terminal. Use o aplicativo `Expo Go` no seu smartphone para escanear o código QR e abrir o aplicativo.
+
+
+### ⚡ Tecnologias
+
+* ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+
+
+
+
+
+## 📌 Versão
+
+Versão Beta. 
+
+---
+⌨️ com ❤️ por [Jeferson P. Matos]([https://gist.github.com/lohhan](https://github.com/jefersonPMatos)https://github.com/jefersonPMatos) 
+
 
 Agora você deverá ser capaz de visualizar o seu aplicativo React Native em seu dispositivo móvel. Qualquer alteração que você faça no código será refletida automaticamente no aplicativo.
 
